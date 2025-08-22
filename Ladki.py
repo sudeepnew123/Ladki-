@@ -16,7 +16,7 @@ from telegram.ext import (
 )
 
 # ========= CONFIG =========
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "8275289853:AAGBajWt5xpFT7Akq-Ksyxrt17Zc8OKbBXQ"
 
 # Policy toggles
 POLICY = {
