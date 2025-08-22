@@ -404,6 +404,10 @@ async def main():
     app.add_handler(CommandHandler("setpolicy", cmd_setpolicy))
 
     await app.run_polling()
-
+    
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(main())
+    
 # To run:
 # import asyncio; asyncio.run(main())
